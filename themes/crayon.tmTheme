@@ -54,28 +54,15 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7496B8</string>
+				<string>#586270</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.variable,  
-punctuation.definition.inheritance,
-punctuation.section.class,
-punctuation.separator,
-punctuation.section.function,
-punctuation.definition.array,
-punctuation.separator.parameters,
-keyword.operator.logical,
-keyword.operator.comparison,
-keyword.operator.arithmetic,
-keyword.operator.increment-decrement,
-keyword.operator.assignment,
-keyword.operator.js,
-
-source.python meta.function-call.python meta.function-call.arguments.python</string>
+			<string>punctuation,
+keyword.operator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -86,8 +73,7 @@ source.python meta.function-call.python meta.function-call.arguments.python</str
 			<key>name</key>
 			<string>Operators</string>
 			<key>scope</key>
-			<string>keyword.operator,
-keyword.operator.logical.python</string>
+			<string>keyword.control</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -98,7 +84,9 @@ keyword.operator.logical.python</string>
 			<key>name</key>
 			<string>Keywords</string>
 			<key>scope</key>
-			<string>keyword.other</string>
+			<string>keyword.other,
+keyword.control.pseudo-method,
+keyword.control.flow</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -120,8 +108,9 @@ keyword.operator.logical.python</string>
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>meta.require, support.function.any-method,
-meta.function.method</string>
+			<string>support.function.any-method,
+entity.name.function,
+support.function.builtin</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -132,7 +121,7 @@ meta.function.method</string>
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>support.class, entity.name.class, entity.name.type.class, meta.class</string>
+			<string>support.class, entity.name.class, entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -165,7 +154,8 @@ meta.function.method</string>
 			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
-			<string>storage</string>
+			<string>storage,
+variable.other.block</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -176,11 +166,11 @@ meta.function.method</string>
 			<key>name</key>
 			<string>Support</string>
 			<key>scope</key>
-			<string>support.function</string>
+			<string>support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7496B8</string>
+				<string>#D8C27A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -229,20 +219,21 @@ meta.function.method</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Constants</string>
+			<string>Constants Lang</string>
 			<key>scope</key>
 			<string>constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7496B8</string>
+				<string>#D8C27A</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tags</string>
+			<string>Tags, CSS Classes</string>
 			<key>scope</key>
-			<string>entity.name.tag</string>
+			<string>entity.name.tag,
+entity.other.attribute-name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -286,7 +277,8 @@ meta.function.method</string>
 			<key>name</key>
 			<string>Headings</string>
 			<key>scope</key>
-			<string>markup.heading punctuation.definition.heading, entity.name.section</string>
+			<string>markup.heading punctuation.definition.heading, entity.name.section,
+punctuation.definition.constant.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -415,7 +407,8 @@ meta.function.method</string>
 			<key>name</key>
 			<string>Deleted</string>
 			<key>scope</key>
-			<string>markup.deleted</string>
+			<string>markup.deleted,
+punctuation.terminator.rule.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -441,7 +434,7 @@ meta.function.method</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#798494</string>
+				<string>#D8C27A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -495,11 +488,10 @@ meta.environment-variable</string>
 			<key>name</key>
 			<string>Import&#x2f;Using&#x2f;Require</string>
 			<key>scope</key>
-			<string>import.python, 
-import.java,
-keyword.other.special-method.ruby,
-import.from,
-source.python keyword.control.import.from.python</string>
+			<string>import
+keyword.other.special-method,
+keyword.control.import,
+meta.preprocessor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -510,7 +502,8 @@ source.python keyword.control.import.from.python</string>
 			<key>name</key>
 			<string>Super Call</string>
 			<key>scope</key>
-			<string>support.type.python</string>
+			<string>support.type.python,
+keyword.other.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -552,17 +545,6 @@ source.python keyword.control.import.from.python</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby ENV</string>
-			<key>scope</key>
-			<string>source.ruby meta.environment-variable.ruby variable.other.constant.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B27B78</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Ruby Instance</string>
 			<key>scope</key>
 			<string></string>
@@ -572,32 +554,44 @@ source.python keyword.control.import.from.python</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby Instance</string>
+			<string>Constant Other</string>
 			<key>scope</key>
-			<string>source.ruby variable.other.readwrite.instance.ruby,
-source.ruby variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby</string>
+			<string>constant.other,
+punctuation.definition.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B27B78</string>
+				<string>#99AE63</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby Block Var</string>
+			<string>CSS Properties</string>
 			<key>scope</key>
-			<string>source.ruby variable.other.block.ruby</string>
+			<string>meta.property-name.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B27B78</string>
+				<string>#D8C27A</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby Control</string>
+			<string>CSS Integers, Units</string>
 			<key>scope</key>
-			<string>keyword.control.ruby</string>
+			<string>keyword.other.unit.css,
+constant.numeric.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d8d8d8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Exceptions</string>
+			<key>scope</key>
+			<string>support.type.exception</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -606,13 +600,13 @@ source.ruby variable.other.readwrite.instance.ruby punctuation.definition.variab
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Control Flow</string>
+			<string>Arguments</string>
 			<key>scope</key>
-			<string>keyword.control.flow</string>
+			<string>meta.function-call.arguments</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B27B78</string>
+				<string>#d8d8d8</string>
 			</dict>
 		</dict>
 	</array>
