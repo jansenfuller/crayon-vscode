@@ -73,7 +73,9 @@ keyword.operator</string>
 			<key>name</key>
 			<string>Operators</string>
 			<key>scope</key>
-			<string>keyword.control</string>
+			<string>keyword.control,
+punctuation.definition.decorator,
+keyword.operator.logical</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -86,7 +88,8 @@ keyword.operator</string>
 			<key>scope</key>
 			<string>keyword.other,
 keyword.control.pseudo-method,
-keyword.control.flow</string>
+keyword.control.flow,
+meta.function.decorator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -109,7 +112,7 @@ keyword.control.flow</string>
 			<string>Functions</string>
 			<key>scope</key>
 			<string>support.function.any-method,
-entity.name.function,
+meta.function.python,
 support.function.builtin</string>
 			<key>settings</key>
 			<dict>
@@ -502,8 +505,7 @@ meta.preprocessor</string>
 			<key>name</key>
 			<string>Super Call</string>
 			<key>scope</key>
-			<string>support.type.python,
-keyword.other.python</string>
+			<string>support.type.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -607,6 +609,17 @@ constant.numeric.css</string>
 			<dict>
 				<key>foreground</key>
 				<string>#d8d8d8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Decoration</string>
+			<key>scope</key>
+			<string>meta.function.decorator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b27b78</string>
 			</dict>
 		</dict>
 	</array>
