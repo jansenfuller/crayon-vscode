@@ -79,7 +79,7 @@ keyword.operator.logical</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B59CD8</string>
+				<string>#B39696</string>
 			</dict>
 		</dict>
 		<dict>
@@ -88,12 +88,11 @@ keyword.operator.logical</string>
 			<key>scope</key>
 			<string>keyword.other,
 keyword.control.pseudo-method,
-keyword.control.flow,
 meta.function.decorator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B27B78</string>
+				<string>#B39696</string>
 			</dict>
 		</dict>
 		<dict>
@@ -117,7 +116,7 @@ support.function.builtin</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7496B8</string>
+				<string>#8CA1B8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -128,7 +127,7 @@ support.function.builtin</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7791C2</string>
+				<string>#8C9FB8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -162,7 +161,7 @@ variable.other.block</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B27B78</string>
+				<string>#B39696</string>
 			</dict>
 		</dict>
 		<dict>
@@ -180,11 +179,12 @@ variable.other.block</string>
 			<key>name</key>
 			<string>Strings</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>string,
+string.quoted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#99AE63</string>
+				<string>#9FAD78</string>
 			</dict>
 		</dict>
 		<dict>
@@ -195,7 +195,7 @@ variable.other.block</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D8C27A</string>
+				<string>#D9C891</string>
 			</dict>
 		</dict>
 		<dict>
@@ -228,7 +228,7 @@ variable.other.block</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D8C27A</string>
+				<string>#D9C891</string>
 			</dict>
 		</dict>
 		<dict>
@@ -459,7 +459,7 @@ punctuation.terminator.rule.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#798494</string>
+				<string>#7496B8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -498,7 +498,7 @@ meta.preprocessor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7496B8</string>
+				<string>#8C9FB8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -509,7 +509,7 @@ meta.preprocessor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7491BD</string>
+				<string>#8CA1B8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -597,7 +597,7 @@ constant.numeric.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B59CD8</string>
+				<string>#B5A3CF</string>
 			</dict>
 		</dict>
 		<dict>
