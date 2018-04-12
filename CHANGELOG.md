@@ -1,12 +1,30 @@
 # Change Log
 All notable changes to the "crayon-vscode" extension will be documented in this file.
 
-## 0.1 - 2016-12-07
+## 0.1.0 - 2016-12-07
 ### Added
 - Initial commit
 
 
-## 0.2 - 2017-06-16
+## 0.2.0 - 2017-06-16
 ### Modified
 - Changed some color to better match the original scheme
+
+
+## 0.2.1 - 0.4.0
+### Versioning error. Advanced to 0.5.0
+
+
+## 0.5.0 - 0.5.5 - 2018-4-07
+### Modified
+- Fixed mismatched colors
+- Desatureated colors to better fit original color scheme
+- Icon cleaned up
+
+
+## 0.6.0 - 2018-4-11
+### Modified
+- Converted .tmTheme to functional VSCode JSON
+- Status Bar, Side Bar, Activity Bar, and various other details changed to use standard colors
+- README changes
 
