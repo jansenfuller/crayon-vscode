@@ -2,7 +2,7 @@
     "name": "crayon-vscode",
     "displayName": "Crayon-VSCode",
     "description": "Visual Studio Code translation of Dylan Araps \"crayon\" vim color scheme",
-    "version": "0.6.0",
+    "version": "0.6.1",
     "publisher": "jansenfuller",
     "engines": {
         "vscode": "^1.10.0"

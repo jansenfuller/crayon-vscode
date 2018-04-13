@@ -18,7 +18,7 @@ All notable changes to the "crayon-vscode" extension will be documented in this 
 ## 0.5.0 - 0.5.5 - 2018-4-07
 ### Modified
 - Fixed mismatched colors
-- Desatureated colors to better fit original color scheme
+- Unsaturated colors to better fit original color scheme
 - Icon cleaned up
 
 
@@ -28,3 +28,7 @@ All notable changes to the "crayon-vscode" extension will be documented in this 
 - Status Bar, Side Bar, Activity Bar, and various other details changed to use standard colors
 - README changes
 
+## 0.6.1 - 2018-4-12
+### Modified
+- Fixed mismatched colors for HTML and Markdown
+- Updated README to include color palette and screenshots
