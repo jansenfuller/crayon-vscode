@@ -12,8 +12,8 @@
 		"activityBar.background": "#1e1e1e",
 		"sideBarTitle.foreground": "#d4d4d4",
 		"sideBarTitle.background": "#1e1e1e",
-		"statusBar.background" : "#5A7CA4",
-		"statusBar.noFolderBackground" : "#B59CD8",
+		"statusBar.background": "#5A7CA4",
+		"statusBar.noFolderBackground": "#B59CD8",
 		"statusBar.debuggingBackground": "#B27B78",
 		"titleBar.activeBackground": "#2d2d2d",
 		"gitDecoration.untrackedResourceForeground": "#99ae63"
@@ -82,7 +82,6 @@
 			],
 			"settings": {
 				"foreground": "#B39696"
-
 			}
 		},
 		{
@@ -145,7 +144,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#D8C27A"
 			}
 		},
 		{
