@@ -51,7 +51,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#D8C27A"
+				"foreground": "#D9C891"
 			}
 		},
 		{
@@ -78,7 +78,8 @@
 			"name": "Storage",
 			"scope": [
 				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"variable.other.block"
 			],
 			"settings": {
 				"foreground": "#B39696"
@@ -144,7 +145,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#D8C27A"
+				"foreground": "#D9C891"
 			}
 		},
 		{
@@ -218,7 +219,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#8C9FB8"
+				"foreground": "#D9C891"
 			}
 		},
 		{
@@ -259,7 +260,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#D8C27A"
+				"foreground": "#D9C891"
 			}
 		},
 		{
@@ -269,7 +270,7 @@
 				"text.html.basic entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#D8C27A"
+				"foreground": "#D9C891"
 			}
 		},
 		{
