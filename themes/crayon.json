@@ -39,6 +39,7 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
+				"variable.other.property",
 				"string constant.other.placeholder"
 			],
 			"settings": {
@@ -93,7 +94,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#FFF"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -111,10 +112,12 @@
 			"name": "Punctuation, Misc",
 			"scope": [
 				"punctuation",
-				"punctuation.definition.tag"
+				"punctuation.definition.tag",
+				"meta.brace",
+				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#FFF"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -140,13 +143,13 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Number, Constant, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
-				"support.constant",
 				"constant.character",
 				"constant.escape",
+				"support.constant",
 				"keyword.other.unit"
 			],
 			"settings": {
@@ -173,7 +176,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#FFF"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -183,6 +186,7 @@
 				"keyword.other.special-method",
 				"keyword.control.import",
 				"keywrod.control.import.from",
+				"support.class.component",
 				"meta.preprocessor"
 			],
 			"settings": {
@@ -206,8 +210,8 @@
 				"support.class",
 				"support.orther.namespace.use.php",
 				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"markup.changed.git_gutter"
 			],
 			"settings": {
 				"foreground": "#D9C891"
