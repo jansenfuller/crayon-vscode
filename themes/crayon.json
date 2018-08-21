@@ -5,15 +5,15 @@
 		"errorForeground": "#B27B78",
 		"editor.background": "#1e1e1e",
 		"editor.foreground": "#d4d4d4",
-		"editor.selectionBackground": "#8C9FB863",
-		"editor.selectionHighlightBackground": "#8C9FB863",
+		"editor.selectionBackground": "#93A3B563",
+		"editor.selectionHighlightBackground": "#93A3B563",
 		"editorLineNumber.foreground": "#586270",
 		"activityBarBadge.background": "#5A7CA4",
 		"activityBar.background": "#1e1e1e",
 		"sideBarTitle.foreground": "#d4d4d4",
 		"sideBarTitle.background": "#1e1e1e",
-		"statusBar.background": "#5A7CA4",
-		"statusBar.noFolderBackground": "#B59CD8",
+		"statusBar.background": "#93A3B5",
+		"statusBar.noFolderBackground": "#B39696",
 		"statusBar.debuggingBackground": "#B27B78",
 		"titleBar.activeBackground": "#2d2d2d",
 		"gitDecoration.untrackedResourceForeground": "#99ae63"
@@ -52,7 +52,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#D9C891"
+				"foreground": "#DBCFA2"
 			}
 		},
 		{
@@ -80,7 +80,10 @@
 			"scope": [
 				"storage.type",
 				"storage.modifier",
-				"variable.other.block"
+				"variable.other.block",
+				"constant.other.symbol",
+				"constant.language.symbol",
+				"punctuation.definition.constant"
 			],
 			"settings": {
 				"foreground": "#B39696"
@@ -139,7 +142,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#8CA1B8"
+				"foreground": "#93A3B5"
 			}
 		},
 		{
@@ -153,21 +156,21 @@
 				"keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#D9C891"
+				"foreground": "#DBCFA2"
 			}
 		},
 		{
 			"name": "String, Symbols",
 			"scope": [
 				"string",
-				"constant.other.symbol",
-				"punctuation.definition.constant",
 				"constant.other.key",
+				"constant.language.symbol.hashkey",
+				"punctuation.definition.constant.hashkey",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#9FAD78"
+				"foreground": "#A9B38D"
 			}
 		},
 		{
@@ -190,7 +193,7 @@
 				"meta.preprocessor"
 			],
 			"settings": {
-				"foreground": "#8C9FB8"
+				"foreground": "#93A3B5"
 			}
 		},
 		{
@@ -200,7 +203,7 @@
 				"meta.use.php"
 			],
 			"settings": {
-				"foreground": "#8C9FB8"
+				"foreground": "#93A3B5"
 			}
 		},
 		{
@@ -214,7 +217,7 @@
 				"markup.changed.git_gutter"
 			],
 			"settings": {
-				"foreground": "#D9C891"
+				"foreground": "#DBCFA2"
 			}
 		},
 		{
@@ -255,7 +258,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#D9C891"
+				"foreground": "#DBCFA2"
 			}
 		},
 		{
@@ -265,7 +268,7 @@
 				"text.html.basic entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#D9C891"
+				"foreground": "#DBCFA2"
 			}
 		},
 		{
