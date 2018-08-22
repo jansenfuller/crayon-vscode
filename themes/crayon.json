@@ -52,7 +52,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#DBCFA2"
+				"foreground": "#D9C891"
 			}
 		},
 		{
@@ -156,7 +156,7 @@
 				"keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#DBCFA2"
+				"foreground": "#D9C891"
 			}
 		},
 		{
@@ -217,7 +217,7 @@
 				"markup.changed.git_gutter"
 			],
 			"settings": {
-				"foreground": "#DBCFA2"
+				"foreground": "#D9C891"
 			}
 		},
 		{
@@ -258,7 +258,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#DBCFA2"
+				"foreground": "#D9C891"
 			}
 		},
 		{
@@ -268,7 +268,7 @@
 				"text.html.basic entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#DBCFA2"
+				"foreground": "#D9C891"
 			}
 		},
 		{
