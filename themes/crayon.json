@@ -5,14 +5,14 @@
 		"errorForeground": "#B27B78",
 		"editor.background": "#1e1e1e",
 		"editor.foreground": "#d4d4d4",
-		"editor.selectionBackground": "#93A3B563",
-		"editor.selectionHighlightBackground": "#93A3B563",
+		"editor.selectionBackground": "#8C9FB863",
+		"editor.selectionHighlightBackground": "#8C9FB863",
 		"editorLineNumber.foreground": "#586270",
 		"activityBarBadge.background": "#5A7CA4",
 		"activityBar.background": "#1e1e1e",
 		"sideBarTitle.foreground": "#d4d4d4",
 		"sideBarTitle.background": "#1e1e1e",
-		"statusBar.background": "#93A3B5",
+		"statusBar.background": "#8C9FB8",
 		"statusBar.noFolderBackground": "#B39696",
 		"statusBar.debuggingBackground": "#B27B78",
 		"titleBar.activeBackground": "#2d2d2d",
@@ -142,7 +142,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#93A3B5"
+				"foreground": "#8C9FB8"
 			}
 		},
 		{
@@ -193,7 +193,7 @@
 				"meta.preprocessor"
 			],
 			"settings": {
-				"foreground": "#93A3B5"
+				"foreground": "#8C9FB8"
 			}
 		},
 		{
@@ -203,7 +203,7 @@
 				"meta.use.php"
 			],
 			"settings": {
-				"foreground": "#93A3B5"
+				"foreground": "#8C9FB8"
 			}
 		},
 		{
