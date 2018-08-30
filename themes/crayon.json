@@ -12,7 +12,7 @@
 		"activityBar.background": "#1e1e1e",
 		"sideBarTitle.foreground": "#d4d4d4",
 		"sideBarTitle.background": "#1e1e1e",
-		"statusBar.background": "#8C9FB8",
+		"statusBar.background": "#5A7CA4",
 		"statusBar.noFolderBackground": "#B39696",
 		"statusBar.debuggingBackground": "#B27B78",
 		"titleBar.activeBackground": "#2d2d2d",
@@ -117,6 +117,8 @@
 				"punctuation",
 				"punctuation.definition.tag",
 				"meta.brace",
+				"meta.delimiter.comma",
+				"meta.function.arrow",
 				"keyword.operator"
 			],
 			"settings": {
@@ -134,12 +136,13 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Function, Special Method, Objects",
 			"scope": [
 				"entity.name.function",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"constant.other.object"
 			],
 			"settings": {
 				"foreground": "#8C9FB8"
@@ -162,7 +165,7 @@
 		{
 			"name": "String, Symbols",
 			"scope": [
-				"string",
+				"string.quoted",
 				"constant.other.key",
 				"constant.language.symbol.hashkey",
 				"punctuation.definition.constant.hashkey",
