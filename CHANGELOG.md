@@ -41,3 +41,7 @@ All notable changes to the "crayon-vscode" extension will be documented in this 
 ### Modified
 - Fixed colors on punctuation
 - Better coloring for Ruby hashes and symbols
+
+## 0.6.4 - 2018-8-30
+###
+- Fixed coloring of the status bar and side bar
