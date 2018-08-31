@@ -32,3 +32,12 @@ All notable changes to the "crayon-vscode" extension will be documented in this 
 ### Modified
 - Fixed mismatched colors for HTML and Markdown
 - Updated README to include color palette and screenshots
+
+## 0.6.2 - 2018-7-12
+### Modified
+- Better coloring for Javascript punctuation and variables
+
+## 0.6.3 - 2018-8-30
+### Modified
+- Fixed colors on punctuation
+- Better coloring for Ruby hashes and symbols
